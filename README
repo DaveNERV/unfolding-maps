@@ -1,31 +1,26 @@
-unfolding_app_template
-======================
+# unfolding_maps
+==================================================================
 
-This is a skeleton to use Unfolding in Eclipse.
+#### What does it offer?
+The application provides interactive maps to display various types of geographic data 
+as well as some starter code for the Object Oriented Programming in Java course offered by 
+UC San Diego through Coursera.
+The application includes the following types of cards:
 
-A very basic Unfolding demo you'll find in the source folder. For more
-examples visit http://unfoldingmaps.org, or download the template with
-examples.
+1. AirportMap: Map showing airport locations and related information.
+2. EarthquakeCityMap: A map showing earthquake data and information, including the impact on cities.
+3. LifeExpectancy: A map that visualizes life expectancy data in different regions.
 
-Get excited and make things!
+Every map provides the following features:
 
+- interactive map display with the ability to zoom and move.
+- custom markers and data visualization for various map types.
+- ability to click on markers to view detailed information about specific locations or events.
+- map legends for interpreting the displayed data.
 
-INSTALLATION
+### Setup project
 
-Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into
-Workspace', Select this folder, 'Finish')
+Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into Workspace', Select this folder, 'Finish')
 
-Set the native libraries for your OS ('Configure Build Path' > 'Libraries' > Set 'native library location' of jogl.jar).
-
-Switch Java Compiler to 1.6 if you get VM problems. (Processing only works with Java 1.6)
-
-
-MANUAL INSTALLATION
-
-If the import does not work follow the steps below.
-
-- Create new Java project
-- Copy+Paste all files into project
-- Add all lib/*.jars to build path
-- Set native library location for jogl.jar. Choose appropriate folder for your OS.
-- Add data/ as src
+### Usage
+To run any of the maps in the Unfolding Maps application, find the respective Java class file in the src directory and execute its main method.
