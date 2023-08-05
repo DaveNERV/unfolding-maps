@@ -20,7 +20,7 @@ Every map provides the following features:
 
 ### Setup project
 
-Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into Workspace', Select this folder, 'Finish')
+Import this folder in Eclipse or IntelliJ('File' -> 'Import' -> 'Existing Projects into Workspace', Select this folder, 'Finish')
 
 ### Usage
 To run any of the maps in the Unfolding Maps application, find the respective Java class file in the src directory and execute its main method.
