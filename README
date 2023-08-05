@@ -18,7 +18,7 @@ Every map provides the following features:
 - ability to click on markers to view detailed information about specific locations or events.
 - map legends for interpreting the displayed data.
 
-### Setup project #
+### Setup project
 
 Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into Workspace', Select this folder, 'Finish')
 
